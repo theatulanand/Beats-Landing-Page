@@ -25,6 +25,8 @@ nav {
   width: 100%;
 }
 
+/* Styling NAvigation */
+
 nav,
 .nav-right,
 ul {
@@ -54,6 +56,79 @@ nav button {
 
 nav button:hover {
   cursor: pointer;
-  background: #ffffff;
-  color: #1e1e21;
+  background: black;
+}
+
+/* Styling Main */
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+.headphone-img img {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
+
+.main-right {
+  margin-left: 150px;
+}
+
+.onEar-img {
+  margin-left: 50px;
+  width: 350px;
+}
+
+.main-right h1 {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.main-right h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.main-right p {
+  width: 65%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.shopping-bag-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.shopping-bag-btn:hover {
+  background-color: black;
+}
+
+.shopping-bag-btn img {
+  width: 15px;
+  background-color: transparent;
+}
+
+.shopping-bag-btn p {
+  margin-bottom: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.shopping-bag-btn span {
+  background-color: transparent;
 }
