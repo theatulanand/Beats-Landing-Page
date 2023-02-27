@@ -237,9 +237,58 @@ main {
   gap: 20px;
   font-size: 12px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .moreInfo-btn img,
 .moreInfo-btn p {
   background: transparent;
+}
+
+/* Styling banner */
+.banner {
+  width: 70vw;
+  height: 50vh;
+  border-radius: 20px;
+  background-color: #181a1b;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+}
+
+.banner-right {
+  background-color: transparent;
+}
+
+.banner-left h3,
+.banner-left p {
+  background-color: transparent;
+}
+
+.banner-left > p {
+  color: #bdc0c2;
+  font-size: 12px;
+}
+
+.buynow-btn {
+  width: fit-content;
+  background: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.banner-left {
+  background-color: transparent;
+}
+
+.banner-right img {
+  scale: 0.8;
+  background-color: transparent;
 }
