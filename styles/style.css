@@ -132,3 +132,60 @@ main {
 .shopping-bag-btn span {
   background-color: transparent;
 }
+
+/* Styling Social Section */
+
+.social {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  position: relative;
+  top: -50px;
+}
+
+.social img {
+  scale: 0.8;
+}
+
+/* Styling Specs section */
+
+.specs {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.specs-logo {
+  scale: 0.8;
+}
+
+.specs-main {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.specs-left p {
+  font-size: 12px;
+}
+
+.specs-left p:last-child {
+  font-size: 10px;
+  color: #bdc0c2;
+}
+
+.specs-left div {
+  margin-bottom: 20px;
+}
+
+.specs-left div:last-child,
+.specs-left div:first-child {
+  margin-left: 30px;
+}
+
+.specs-right {
+  scale: 0.8;
+}
