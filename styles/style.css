@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +22,10 @@ li {
 
 body {
   margin: 0 15vw;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 nav {
@@ -188,4 +196,50 @@ main {
 
 .specs-right {
   scale: 0.8;
+}
+
+/* Styling Case Section */
+
+.case {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.case-main {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  align-items: center;
+}
+
+.case-logo img,
+.case-left img {
+  scale: 0.8;
+}
+
+.case-right > p {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.moreInfo-btn {
+  width: fit-content;
+  background: #1e1e21;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.moreInfo-btn img,
+.moreInfo-btn p {
+  background: transparent;
 }
