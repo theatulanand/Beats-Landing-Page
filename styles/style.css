@@ -292,3 +292,83 @@ main {
   scale: 0.8;
   background-color: transparent;
 }
+
+/* Styling Products Section */
+
+.product-section {
+  width: 45vw;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.products-logo {
+  text-align: center;
+}
+
+.products-logo img {
+  scale: 0.6;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.product-card {
+  width: 150px;
+  height: 150px;
+  background-color: #181a1b;
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.product-card img {
+  background-color: transparent;
+  width: 90px;
+  position: relative;
+  top: -40%;
+}
+
+.product-card > div {
+  display: flex;
+  position: relative;
+  margin-top: -40%;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.product-card div {
+  background-color: transparent;
+}
+
+.product-card > div p:last-child {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.product-card > div p:first-child {
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.product-card > div > div img {
+  width: 95%;
+  cursor: pointer;
+}
+
+.product-card > div > div:last-child {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  padding-bottom: 0px;
+}
+
+/* Styling footer part */
