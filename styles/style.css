@@ -372,3 +372,55 @@ main {
 }
 
 /* Styling footer part */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #bdc0c2;
+  margin-bottom: 10px;
+}
+
+.footer h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.subscribe-btn p {
+  color: white;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.subscribe-btn img {
+  background-color: transparent;
+}
+
+.subscribe-section {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #181a1b;
+  border-radius: 10px;
+}
+
+.subscribe-section input {
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.subscribe-btn {
+  display: flex;
+  gap: 20px;
+  background-color: transparent;
+  background-color: #0f0f10;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
